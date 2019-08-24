@@ -11,7 +11,7 @@ class Cadastro extends React.Component {
   render () {
     return (
 			<div className='cadastro'>
-				<Link to="/"><Image src={back} class='back-arrow' /></Link>
+				<Link to="/"><Image src={back} /></Link>
 				<Grid container columns={1} className='painel-cadastro'>
 					<Grid.Column>
 						<Grid.Row centered className='linha-cadastro'>
